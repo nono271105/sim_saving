@@ -1,9 +1,11 @@
-# Comparateur de Placements · France 🇫🇷
+# Comparateur de Placements France 🇫🇷
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Active](https://img.shields.io/badge/status-Active-brightgreen.svg)](#)
 
-Un outil pour comparer des placements financiers en France, avec la  fiscalité 2026 appliquée.
+Un outil pour comparer des placements financiers en France, avec la  fiscalité 2026 appliquée. 
+
+Utilisation en ligne : https://simsaving.streamlit.app/
 
 ---
 
