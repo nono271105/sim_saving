@@ -270,7 +270,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "ldds": Produit(
         nom="LDDS", code="ldds", categorie="Livrets reglements",
-        taux_rendement_brut=0.02,
+        taux_rendement_brut=0.015,
         plafond_depot=12_000,
         exonere_ir=True, exonere_ps=True,
         risque="Nul", liquidite="Haute", garantie_capital=True,
@@ -305,7 +305,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "pel": Produit(
         nom="PEL", code="pel", categorie="Epargne logement",
-        taux_rendement_brut=0.0175,
+        taux_rendement_brut=0.025,
         plafond_depot=61_200,
         exonere_ir=False, exonere_ps=False,
         pfu_apres_ans=0, duree_min_ans=4,
@@ -319,7 +319,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "cel": Produit(
         nom="CEL", code="cel", categorie="Epargne logement",
-        taux_rendement_brut=0.015,
+        taux_rendement_brut=0.01,
         plafond_depot=15_300,
         exonere_ir=False, exonere_ps=False,
         pfu_apres_ans=0,
@@ -332,7 +332,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "av_euros": Produit(
         nom="Assurance Vie Fonds Euros", code="av_euros", categorie="Assurance Vie",
-        taux_rendement_brut=0.038,
+        taux_rendement_brut=0.026,
         exonere_ir=False, exonere_ps=False,
         abattement_8ans=4_600, pfu_apres_ans=8,
         risque="Faible", liquidite="Moyenne", garantie_capital=True,
@@ -345,7 +345,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "av_uc": Produit(
         nom="Assurance Vie UC", code="av_uc", categorie="Assurance Vie",
-        taux_rendement_brut=0.065,
+        taux_rendement_brut=0.035,
         taux_rendement_min=-0.20, taux_rendement_max=0.18,
         exonere_ir=False, exonere_ps=False,
         abattement_8ans=4_600, pfu_apres_ans=8,
@@ -373,7 +373,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "pea_pme": Produit(
         nom="PEA-PME", code="pea_pme", categorie="Epargne en actions",
-        taux_rendement_brut=0.065,
+        taux_rendement_brut=0.035,
         taux_rendement_min=-0.40, taux_rendement_max=0.30,
         plafond_depot=225_000, plafond_versement=225_000,
         exonere_ir=False, exonere_ps=False,
@@ -387,7 +387,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "cto": Produit(
         nom="Compte Titres CTO", code="cto", categorie="Epargne en actions",
-        taux_rendement_brut=0.07,
+        taux_rendement_brut=0.075,
         taux_rendement_min=-0.35, taux_rendement_max=0.28,
         exonere_ir=False, exonere_ps=False,
         risque="Eleve", liquidite="Haute", garantie_capital=False,
@@ -400,7 +400,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "scpi": Produit(
         nom="SCPI", code="scpi", categorie="Immobilier papier",
-        taux_rendement_brut=0.047,
+        taux_rendement_brut=0.04,
         taux_rendement_min=0.025, taux_rendement_max=0.07,
         exonere_ir=False, exonere_ps=False,
         soumis_ir_foncier=True, duree_min_ans=8,
@@ -414,7 +414,7 @@ PRODUITS: dict[str, "Produit"] = {
     ),
     "obligations": Produit(
         nom="OAT 10 ans", code="obligations", categorie="Obligataire",
-        taux_rendement_brut=0.034,
+        taux_rendement_brut=0.032,
         taux_rendement_min=0.02, taux_rendement_max=0.05,
         exonere_ir=False, exonere_ps=False,
         risque="Faible", liquidite="Haute", garantie_capital=True,
