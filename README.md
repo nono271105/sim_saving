@@ -21,7 +21,7 @@ Il y a aussi un module de recommandation qui analyse votre profil (âge, objecti
 
 ```bash
 pip install streamlit plotly pandas numpy
-streamlit run comparateur_placements.py
+streamlit run simulateur.py
 ```
 ---
 
